@@ -1,0 +1,298 @@
+.section-home_hero {
+  overflow: hidden;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container.container-large {
+    max-width: none;
+  }
+}
+
+.container-large {
+  width: 100%;
+  max-width: 103.12rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-wrapper {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  overflow: hidden;
+  padding-top: 1.5rem;
+  align-items: flex-end;
+
+  border-radius: 1.25rem;
+
+  background-color: var(--lightGreen-2c5efd84);
+}
+
+@media screen and (max-width: 991px) {
+  .hero-wrapper {
+    padding-top: 6.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-wrapper {
+    padding-top: 2.75rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+
+.hero-img-wrapper {
+  position: relative;
+  z-index: 2;
+  max-width: 24.3125rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.overlay-msg-wrap {
+  position: absolute;
+  top: 21rem;
+  right: -6.25rem;
+  z-index: 2;
+
+  display: flex;
+  padding: 0.625rem 1.75rem 0.625rem 0.625rem;
+  align-items: center;
+
+  border-radius: 0.625rem;
+
+  background-color: white;
+
+  box-shadow: 3px 3px 23px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 991px) {
+  .overlay-msg-wrap {
+    display: none;
+  }
+}
+
+.overlay-msg-wrap._02 {
+  top: 26.75rem;
+  right: -15rem;
+}
+
+.msg-img-holder {
+  overflow: hidden;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 1rem;
+  border-radius: 0.625rem;
+}
+
+.hero-main-img {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-main-img {
+    max-width: 21.875rem;
+  }
+}
+
+.hero-bg-design-holder {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.h-shape-1 {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+}
+
+@media screen and (max-width: 991px) {
+  .h-shape-1 {
+    display: none;
+  }
+}
+
+.h-shape-2 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 5rem;
+}
+
+@media screen and (max-width: 991px) {
+  .h-shape-2 {
+    bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .h-shape-2 {
+    max-width: 50%;
+  }
+}
+
+.h-shape-3 {
+  position: absolute;
+  left: 8%;
+  top: auto;
+  right: auto;
+  bottom: 7.5rem;
+
+  transform: rotate(8deg);
+}
+
+@media screen and (max-width: 991px) {
+  .h-shape-3 {
+    left: 2%;
+    bottom: 5%;
+    z-index: 2;
+    display: none;
+    max-width: 7rem;
+  }
+}
+
+.h-shape-4 {
+  position: absolute;
+  left: 28%;
+  top: 16rem;
+  right: auto;
+  bottom: auto;
+
+  transform: rotate(8deg);
+}
+
+@media screen and (max-width: 991px) {
+  .h-shape-4 {
+    left: 13%;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .h-shape-4 {
+    max-width: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .h-shape-4 {
+    left: 6%;
+  }
+}
+
+.h-shape-5 {
+  position: absolute;
+  left: 24%;
+  top: 3rem;
+  right: auto;
+  bottom: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .h-shape-5 {
+    left: 7%;
+    top: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .h-shape-5 {
+    z-index: 2;
+    max-width: 4rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .h-shape-5 {
+    left: 4%;
+    top: 1.5rem;
+  }
+}
+
+.h-shape-6 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 21%;
+  bottom: 46%;
+}
+
+@media screen and (max-width: 991px) {
+  .h-shape-6 {
+    right: 8%;
+    bottom: 35%;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .h-shape-6 {
+    max-width: 4rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .h-shape-6 {
+    right: 3%;
+  }
+}
+
+.h-shape-7 {
+  position: absolute;
+  left: auto;
+  top: 4rem;
+  right: 25%;
+  bottom: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .h-shape-7 {
+    top: 3rem;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .h-shape-7 {
+    z-index: 2;
+    max-width: 4rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .h-shape-7 {
+    top: 2.5rem;
+    max-width: 3rem;
+  }
+}
